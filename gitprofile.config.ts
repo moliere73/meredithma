@@ -17,15 +17,6 @@ const CONFIG = {
         },
       },
       manual: {
-        // 🔧 FIXED: Commented out since these repos don't exist
-        // projects: [
-        //   'moliere73/model-based-transfer-learning',
-        //   'moliere73/generative-ai-projects', 
-        //   'moliere73/computer-vision-ar',
-        //   'moliere73/c0-virtual-machine',
-        //   'moliere73/ai-pacman',
-        //   'moliere73/sudoku-game'
-        // ],
         projects: [], // Empty for now
       },
     },
@@ -35,20 +26,20 @@ const CONFIG = {
         {
           title: 'Model-Based Transfer Learning (MBTL)',
           description: 'Bridging AI and Cognitive Science with strategic task selection achieving 5-43x sample efficiency in reinforcement learning. Published research connecting human cognition to machine learning.',
-          //imageUrl: 'https://img.freepik.com/free-vector/artificial-intelligence-ai-processor-chip-symbol-futuristic-technology_107791-17836.jpg',
-          link: '#', // 🔧 FIXED: Added placeholder link
+          imageUrl: 'https://via.placeholder.com/400x200/6366f1/ffffff?text=AI+Research',
+          link: '#',
         },
         {
           title: 'Space Fortress Cognitive Game Engine',
           description: 'ML-powered cognitive research platform processing 1M+ player interactions with 99.9% data integrity. Built for Anderson ACT-R Lab at Carnegie Mellon.',
-          //imageUrl: 'https://img.freepik.com/free-vector/gradient-neuromorphic-chip-illustration_23-2149676455.jpg',
-          link: '#', // 🔧 FIXED: Added placeholder link
+          imageUrl: 'https://via.placeholder.com/400x200/8b5cf6/ffffff?text=Cognitive+Engine',
+          link: '#',
         },
         {
           title: 'Advanced Generative AI Suite',
           description: 'Custom implementations of DDPM, optimized GPT with RoPE+GQA (35% memory reduction), LoRA fine-tuning, and Text-to-3D generation achieving state-of-the-art results.',
-          //imageUrl: 'https://img.freepik.com/free-vector/gradient-ai-robot-vectorial-illustration_23-2149437863.jpg',
-          link: '#', // 🔧 FIXED: Added placeholder link
+          imageUrl: 'https://via.placeholder.com/400x200/06b6d4/ffffff?text=Generative+AI',
+          link: '#',
         },
       ],
     },
@@ -59,10 +50,10 @@ const CONFIG = {
     imageURL: '' 
   },
   social: {
-    linkedin: 'merema', // 🔧 FIXED: Use your actual LinkedIn username (the part after linkedin.com/in/)
+    linkedin: 'merema',
     x: '',
     mastodon: '',
-    researchGate: '', // 🔧 FIXED: Removed placeholder text
+    researchGate: '',
     facebook: '',
     instagram: '',
     reddit: '',
@@ -81,7 +72,7 @@ const CONFIG = {
     email: 'qianxunm@andrew.cmu.edu',
   },
   resume: {
-    fileUrl: '', // 🔧 FIXED: Empty string instead of commented out
+    fileUrl: '',
   },
   skills: [
     // AI/ML Technologies
@@ -161,16 +152,7 @@ const CONFIG = {
       to: '2026',
     },
   ],
-  #publications: [
-    #{
-     # title: 'Model-Based Transfer Learning for Human Decision-Making: Bridging AI and Cognitive Science',
-     # conferenceName: 'Carnegie Mellon University Research',
-     # journalName: '',
-     # authors: 'Meredith Ma',
-     # link: '#', // 🔧 FIXED: Added placeholder link
-     # description: 'Introduced MBTL framework achieving 5-43x sample efficiency in reinforcement learning through strategic source task selection. Demonstrated connections between computational transfer learning and human developmental psychology using Gaussian Process regression and Bayesian optimization.',
-   # },
-  #],
+  publications: [],
   blog: {
     source: '',  
     username: '',

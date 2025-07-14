@@ -7,7 +7,7 @@ const CONFIG = {
     github: {
       display: true,
       header: 'Featured Projects',
-      mode: 'manual', // Using manual to showcase your best work
+      mode: 'automatic', // 🔧 FIXED: Changed to automatic since manual projects don't exist
       automatic: {
         sortBy: 'stars',
         limit: 8,
@@ -17,15 +17,16 @@ const CONFIG = {
         },
       },
       manual: {
-        // Showcase your best projects from resume
-        projects: [
-          'your-username/model-based-transfer-learning',
-          'your-username/generative-ai-projects', 
-          'your-username/computer-vision-ar',
-          'your-username/c0-virtual-machine',
-          'your-username/ai-pacman',
-          'your-username/sudoku-game'
-        ],
+        // 🔧 FIXED: Commented out since these repos don't exist
+        // projects: [
+        //   'moliere73/model-based-transfer-learning',
+        //   'moliere73/generative-ai-projects', 
+        //   'moliere73/computer-vision-ar',
+        //   'moliere73/c0-virtual-machine',
+        //   'moliere73/ai-pacman',
+        //   'moliere73/sudoku-game'
+        // ],
+        projects: [], // Empty for now
       },
     },
     external: {
@@ -34,20 +35,20 @@ const CONFIG = {
         {
           title: 'Model-Based Transfer Learning (MBTL)',
           description: 'Bridging AI and Cognitive Science with strategic task selection achieving 5-43x sample efficiency in reinforcement learning. Published research connecting human cognition to machine learning.',
-          // imageUrl: 'https://img.freepik.com/free-vector/artificial-intelligence-ai-processor-chip-symbol-futuristic-technology_107791-17836.jpg',
-          // link: 'http//your-research-link.com',
+          imageUrl: 'https://img.freepik.com/free-vector/artificial-intelligence-ai-processor-chip-symbol-futuristic-technology_107791-17836.jpg',
+          link: '#', // 🔧 FIXED: Added placeholder link
         },
         {
           title: 'Space Fortress Cognitive Game Engine',
           description: 'ML-powered cognitive research platform processing 1M+ player interactions with 99.9% data integrity. Built for Anderson ACT-R Lab at Carnegie Mellon.',
-          // imageUrl: 'https://img.freepik.com/free-vector/gradient-neuromorphic-chip-illustration_23-2149676455.jpg',
-          // link: 'https://your-project-link.com',
+          imageUrl: 'https://img.freepik.com/free-vector/gradient-neuromorphic-chip-illustration_23-2149676455.jpg',
+          link: '#', // 🔧 FIXED: Added placeholder link
         },
         {
           title: 'Advanced Generative AI Suite',
           description: 'Custom implementations of DDPM, optimized GPT with RoPE+GQA (35% memory reduction), LoRA fine-tuning, and Text-to-3D generation achieving state-of-the-art results.',
-          // imageUrl: 'https://img.freepik.com/free-vector/gradient-ai-robot-vectorial-illustration_23-2149437863.jpg',
-          // link: 'https://your-ai-projects-link.com',
+          imageUrl: 'https://img.freepik.com/free-vector/gradient-ai-robot-vectorial-illustration_23-2149437863.jpg',
+          link: '#', // 🔧 FIXED: Added placeholder link
         },
       ],
     },
@@ -58,10 +59,10 @@ const CONFIG = {
     imageURL: '' 
   },
   social: {
-    linkedin: 'Meredith Ma',
+    linkedin: 'meredith-ma-6b8b48254', // 🔧 FIXED: Use your actual LinkedIn username (the part after linkedin.com/in/)
     x: '',
     mastodon: '',
-    researchGate: 'your-researchgate', // Add if you have research publications
+    researchGate: '', // 🔧 FIXED: Removed placeholder text
     facebook: '',
     instagram: '',
     reddit: '',
@@ -75,12 +76,12 @@ const CONFIG = {
     stackoverflow: '',
     discord: '',
     telegram: '',
-    website: '', // Add if you have a personal website
+    website: '',
     phone: '',
     email: 'qianxunm@andrew.cmu.edu',
   },
   resume: {
-    // fileUrl: 'https://your-resume-link.com/resume.pdf', // Upload your resume and add link
+    fileUrl: '', // 🔧 FIXED: Empty string instead of commented out
   },
   skills: [
     // AI/ML Technologies
@@ -145,7 +146,6 @@ const CONFIG = {
     },
   ],
   certifications: [
-    // Add any relevant certifications you have
     {
       name: 'Grace Hopper Celebration',
       body: 'Attending GHC 2024 & 2025',
@@ -167,21 +167,21 @@ const CONFIG = {
       conferenceName: 'Carnegie Mellon University Research',
       journalName: '',
       authors: 'Meredith Ma',
-      link: 'https://your-paper-link.com',
+      link: '#', // 🔧 FIXED: Added placeholder link
       description: 'Introduced MBTL framework achieving 5-43x sample efficiency in reinforcement learning through strategic source task selection. Demonstrated connections between computational transfer learning and human developmental psychology using Gaussian Process regression and Bayesian optimization.',
     },
   ],
   blog: {
-    source: '', // Add 'medium' or 'dev' if you write technical blogs
+    source: '', 
     username: '',
     limit: 2,
   },
   googleAnalytics: {
-    id: '', // Add if you want to track portfolio visits
+    id: '',
   },
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'dark', // Fits the AI/tech aesthetic
+    defaultTheme: 'dark',
 
     disableSwitch: false,
     respectPrefersColorScheme: false,
@@ -190,8 +190,8 @@ const CONFIG = {
     themes: [
       'light',
       'dark',
-      'cyberpunk', // Great for AI/tech projects
-      'synthwave', // Another tech-focused theme
+      'cyberpunk',
+      'synthwave',
       'forest',
       'luxury',
       'dracula',
